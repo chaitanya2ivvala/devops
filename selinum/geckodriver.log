@@ -50,3 +50,193 @@ JavaScript error: resource://gre/modules/Sqlite.jsm, line 826: Error: Connection
 1537391025161	Marionette	INFO	Listening on port 35583
 1537391025248	Marionette	WARN	TLS certificate errors will be ignored for this session
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1537481079410	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8rydaKMziaYS"
+1537481079681	addons.xpi	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1537481079682	addons.xpi	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1537481079682	addons.xpi	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1537481079689	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1537481079689	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1537481079690	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1537481079698	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1537481079698	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1537481079698	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1537481079791	Marionette	INFO	Enabled via --marionette
+1537481079820	addons.xpi	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1537481079820	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1537481079820	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1537481079821	addons.xpi	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1537481079821	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1537481079821	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1537481079822	addons.xpi	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1537481079822	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1537481079822	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1537481079877	addons.xpi	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1537481079877	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1537481079877	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1537481080705	Marionette	INFO	Listening on port 33947
+1537481080722	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1537482240636	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YOsO29FH6XwX"
+
+(firefox:8085): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:8085): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1537482242075	Marionette	INFO	Listening on port 42571
+1537482242142	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537482242199	Marionette	DEBUG	[2147483649] Frame script loaded
+1537482242200	Marionette	DEBUG	[2147483649] Frame script registered
+1537482242218	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537482242775	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537482246409	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://vultus.io/
+1537482246884	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://vultus.io/account/status
+1537482251901	Marionette	INFO	Stopped listening on port 42571
+[Parent 8085, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537811267631	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lS3Jdt4S5ctj"
+
+(firefox:3428): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:3428): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1537811269023	Marionette	INFO	Listening on port 34157
+1537811269039	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537811269094	Marionette	DEBUG	[2147483649] Frame script loaded
+1537811269102	Marionette	DEBUG	[2147483649] Frame script registered
+1537811269125	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537811269686	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537811273977	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://vultus.io/
+1537811274735	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://vultus.io/account/status
+1537811279757	Marionette	INFO	Stopped listening on port 34157
+[Parent 3428, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537811993720	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RcB2cZnQyE5L"
+
+(firefox:3868): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:3868): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1537811995101	Marionette	INFO	Listening on port 37753
+1537811995134	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537811995190	Marionette	DEBUG	[2147483649] Frame script loaded
+1537811995200	Marionette	DEBUG	[2147483649] Frame script registered
+1537811995219	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537811995470	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537811999554	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://vultus.io/
+1537812000113	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://vultus.io/account/status
+1537812005397	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1537812005401	Marionette	INFO	Stopped listening on port 37753
+[Parent 3868, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537812032979	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XpTCFZYDxF2k"
+
+(firefox:4116): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:4116): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1537812034295	Marionette	INFO	Listening on port 44753
+1537812034390	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537812034445	Marionette	DEBUG	[2147483649] Frame script loaded
+1537812034455	Marionette	DEBUG	[2147483649] Frame script registered
+1537812034477	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537812034929	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537812038994	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://vultus.io/
+1537812039660	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://vultus.io/account/status
+1537812039908	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1537812044926	Marionette	INFO	Stopped listening on port 44753
+[Parent 4116, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537813770584	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bbiswHZCxLvJ"
+
+(firefox:4603): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:4603): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1537813771861	Marionette	INFO	Listening on port 33563
+1537813771901	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537813771954	Marionette	DEBUG	[2147483649] Frame script loaded
+1537813771956	Marionette	DEBUG	[2147483649] Frame script registered
+1537813771972	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537813772384	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537813776526	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://vultus.io/
+1537813777000	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://vultus.io/account/status
+1537813777244	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1537813782330	Marionette	INFO	Stopped listening on port 33563
+[Parent 4603, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537813843920	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GTZevSVUv5rQ"
+
+(firefox:4851): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:4851): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1537813845208	Marionette	INFO	Listening on port 36767
+1537813845244	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537813845311	Marionette	DEBUG	[2147483649] Frame script loaded
+1537813845313	Marionette	DEBUG	[2147483649] Frame script registered
+1537813845334	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537813845587	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537813849186	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://vultus.io/
+1537813849655	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://vultus.io/account/status
+1537813849895	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1537813855000	Marionette	INFO	Stopped listening on port 36767
+[Parent 4851, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537814122899	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.eUuGY8GC34Ne"
+
+(firefox:5131): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:5131): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1537814124191	Marionette	INFO	Listening on port 35417
+1537814124221	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537814124279	Marionette	DEBUG	[2147483649] Frame script loaded
+1537814124287	Marionette	DEBUG	[2147483649] Frame script registered
+1537814124306	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537814124586	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537814128413	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://vultus.io/
+1537814128907	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://vultus.io/account/status
+1537814129150	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1537814129509	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1537814129515	Marionette	INFO	Stopped listening on port 35417
+[Parent 5131, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537814139117	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IMSbEhtpcI0B"
+
+(firefox:5360): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:5360): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1537814140435	Marionette	INFO	Listening on port 41075
+1537814140533	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537814140583	Marionette	DEBUG	[2147483649] Frame script loaded
+1537814140587	Marionette	DEBUG	[2147483649] Frame script registered
+1537814140609	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537814140896	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537814144389	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://vultus.io/
+1537814144854	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://vultus.io/account/status
+1537814145097	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1537814145421	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1537814150438	Marionette	INFO	Stopped listening on port 41075
+[Parent 5360, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537814218920	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GcPU71QGEoMR"
+
+(firefox:5623): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:5623): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1537814220322	Marionette	INFO	Listening on port 42385
+1537814220331	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537814220393	Marionette	DEBUG	[2147483649] Frame script loaded
+1537814220394	Marionette	DEBUG	[2147483649] Frame script registered
+1537814220418	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537814220671	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537814225096	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://vultus.io/
+1537814225564	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://vultus.io/account/status
+1537814225810	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1537814226129	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1537814226356	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1537814231374	Marionette	INFO	Stopped listening on port 42385
+[Parent 5623, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537814237579	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ysBbt42MM6vV"
+
+(firefox:5864): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:5864): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1537814238976	Marionette	INFO	Listening on port 46683
+1537814238993	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537814239044	Marionette	DEBUG	[2147483649] Frame script loaded
+1537814239054	Marionette	DEBUG	[2147483649] Frame script registered
+1537814239085	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537814239305	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537814242855	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://vultus.io/
+1537814243335	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://vultus.io/account/status
+1537814243577	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1537814243888	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1537814244120	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1537814249137	Marionette	INFO	Stopped listening on port 46683
+[Parent 5864, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
