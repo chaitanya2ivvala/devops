@@ -1,0 +1,65 @@
+
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'AWS Step Functions Example'
+Resources:
+  # Step functions state machine
+  StateMachineOnboardingInstall:
+    Type: 'AWS::StepFunctions::StateMachine'
+    Properties:
+      DefinitionString: !Sub |
+        {
+          "Comment": "AWS Step Functions Example",
+          "StartAt": "Submit",
+          "States": {
+            "Submit": {
+              "Type": "Task",
+              "Resource": "arn:aws:lambda:eu-west-2:179685717475:function:Test_environment_SubmitBatch",
+              "ResultPath": "$.guid",
+              "Next": "WaitXSeconds"
+            },
+            "WaitXSeconds": {
+              "Type": "Wait",
+              "Seconds": 30,
+              "Next": "GetJobStatus"
+            },
+            "GetJobStatus": {
+              "Type": "Task",
+              "Resource": "arn:aws:lambda:eu-west-2:179685717475:function:StepFunctionsSample-JobStatusPoll-CheckJobFunction-18MQ1E6UOIF29",
+              "Next": "JobComplete?",
+              "InputPath": "$.guid",
+              "ResultPath": "$.status"
+            },
+            "JobComplete?": {
+              "Type": "Choice",
+              "Choices": [
+               {
+                "Variable": "$.status",
+                "StringEquals": "FAILED",
+                "Next": "JobFailed"
+               },
+               {
+                "Variable": "$.status",
+                "StringEquals": "SUCCEEDED",
+                "Next": "GetFinalJobStatus"
+                }
+               ],
+              "Default": "WaitXSeconds"
+             },
+            "JobFailed": {
+               "Type": "Fail",
+               "Cause": "AWS Batch Job Failed",
+               "Error": "DescribeJob returned FAILED"
+            },
+             "GetFinalJobStatus": {
+              "Type": "Task",
+              "Resource": "arn:aws:lambda:eu-west-2:179685717475:function:StepFunctionsSample-JobStatusPoll-CheckJobFunction-18MQ1E6UOIF29",
+              "InputPath": "$.guid",
+              "End": true
+            }
+          }
+        }
+      RoleArn: "arn:aws:iam::179685717475:role/StepFunctionsSample-JobStatusP-StatesExecutionRole-1W90FKDB447C3"
+
+
+
+ 

@@ -1,0 +1,23 @@
+{
+  "name": "node-test-app",
+  "version": "1.0.0",
+  "description": "A Node Test App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "krishna chaitanya ivvala",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "gdal": "^0.9.8",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "mongoose": "^5.3.11"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.16.2"
+  }
+}
